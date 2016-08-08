@@ -1,5 +1,7 @@
 # RecipeBook
 
+This project is a follow-along project created by Maximillian Shwarzmuller. The bulk of the work is his, I'm just coding along with him in order to learn!
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.10.
 
 ## Development server
