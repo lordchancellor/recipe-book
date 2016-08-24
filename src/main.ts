@@ -1,6 +1,7 @@
 import { bootstrap } from '@angular/platform-browser-dynamic';
 import { enableProdMode } from '@angular/core';
 import { disableDeprecatedForms, provideForms } from '@angular/forms';
+import { HTTP_PROVIDERS } from '@angular/http';
 
 import { AppComponent, environment } from './app/';
 import { ShoppingListService } from './app/shopping-list';
@@ -14,5 +15,6 @@ bootstrap(AppComponent, [
   APP_ROUTES_PROVIDERS, 
   ShoppingListService, 
   disableDeprecatedForms(),
-  provideForms()
+  provideForms(),
+  HTTP_PROVIDERS
 ]);
